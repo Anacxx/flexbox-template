@@ -1,4 +1,24 @@
-*{
-    margin: 0;
-    padding: 0;
-}
+section{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 10px;
+    /*apenas para facilitar visualização*/
+    padding: 10px;
+    width: 500px;
+    height: 500px;
+    background-color: #0d7fdb;
+    justify-items: center;
+    align-items: center;
+  }
+  article{
+    /*apenas para facilitar visualização*/
+    
+    background-color: rgb(7, 98, 151);
+    border: 1px solid rgb(62, 158, 153);
+  }
+  .bla{
+    background-color: black;
+    grid-row: 1/3;
+  }
